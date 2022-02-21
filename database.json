@@ -46,37 +46,37 @@
             "id": 1,
             "name":"Bazooka",
             "price": 0.89,
-            "productType": 2
+            "productTypeId": 2
         },
         {
             "id": 2,
             "name":"Jolly Ranchers",
             "price": 3.99,
-            "productType": 1
+            "productTypeId": 1
         },
         {
             "id": 3,
             "name":"Coke",
             "price": 1.89,
-            "productType": 4
+            "productTypeId": 4
         },
         {
             "id": 4,
             "name":"Sour Patch Kids",
             "price": 2.89,
-            "productType": 5
+            "productTypeId": 5
         },
         {
             "id": 5,
             "name":"Hershey's",
             "price": 2.99,
-            "productType": 3
+            "productTypeId": 3
         },
         {
             "id": 6,
             "name":"Big Red",
             "price": 1.89,
-            "productType": 2
+            "productTypeId": 2
         }
     ],
     "employees": [
