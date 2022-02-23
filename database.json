@@ -1,216 +1,243 @@
 {
-    "locations": [
-        {
-            "id": 1,
-            "name": "Bob's caramel",
-            "address": "2000 Candy lane",
-            "square footage": 864
-        },
-        {
-            "id": 2,
-            "name": "All Things Chocolate",
-            "address": "125 Sugar st",
-            "square footage": 1521
-        },
-        {
-            "id": 3,
-            "name": "Jaw's Breakers",
-            "address": "484 Eddy ln",
-            "square footage": 1081
-        }
-    ],
-    "productTypes": [
-        {
-            "id": 1,
-            "type": "Hard Candy"
-        },
-        {
-            "id": 2,
-            "type": "Gum"
-        },
-        {
-            "id": 3,
-            "type": "Chocolate"
-        },
-        {
-            "id": 4,
-            "type": "Sodas"
-        },
-        {
-            "id": 5,
-            "type": "Gummies"
-        }
-    ],
-    "products": [
-        {
-            "id": 1,
-            "name":"Bazooka",
-            "price": 0.89,
-            "productTypeId": 2
-        },
-        {
-            "id": 2,
-            "name":"Jolly Ranchers",
-            "price": 3.99,
-            "productTypeId": 1
-        },
-        {
-            "id": 3,
-            "name":"Coke",
-            "price": 1.89,
-            "productTypeId": 4
-        },
-        {
-            "id": 4,
-            "name":"Sour Patch Kids",
-            "price": 2.89,
-            "productTypeId": 5
-        },
-        {
-            "id": 5,
-            "name":"Hershey's",
-            "price": 2.99,
-            "productTypeId": 3
-        },
-        {
-            "id": 6,
-            "name":"Big Red",
-            "price": 1.89,
-            "productTypeId": 2
-        }
-    ],
-    "employees": [
-        {
-            "id":1,
-            "first_name":"Juliann",
-            "last_name":"Fortesquieu",
-            "locationId": 3,
-            "manager": true,
-            "fullTime": true,
-            "HourlyRate": 15.00
-        },
-        {
-            "id":2,
-            "first_name":"Berna",
-            "last_name":"Fisbey",
-            "locationId": 3,
-            "manager": false,
-            "fullTime": false,
-            "HourlyRate": 9.00
-        },
-        {
-            "id":3,
-            "first_name":"Deonne",
-            "last_name":"Oddey",
-            "locationId": 2,
-            "manager": false,
-            "fullTime": true,
-            "HourlyRate": 12.50
-        },
-        {
-            "id":4,
-            "first_name":"Staford",
-            "last_name":"Clampe",
-            "locationId": 1,
-            "manager": false,
-            "fullTime": true,
-            "HourlyRate": 12.50
-        },
-        {
-            "id":5,
-            "first_name":"Kerry",
-            "last_name":"Guyers",
-            "locationId": 3,
-            "manager": false,
-            "fullTime": false,
-            "HourlyRate": 9.00
-        },
-        {
-            "id":6,
-            "first_name":"Lucretia",
-            "last_name":"MacCahee",
-            "locationId": 1,
-            "manager": false,
-            "fullTime": false,
-            "HourlyRate": 9.00
-        },
-        {
-            "id":7,
-            "first_name":"Carlene",
-            "last_name":"Frean",
-            "locationId": 1,
-            "manager": false,
-            "fullTime": true,
-            "HourlyRate": 12.50
-        },
-        {
-            "id":8,
-            "first_name":"Abbey",
-            "last_name":"Grene",
-            "locationId": 2,
-            "manager": true,
-            "fullTime": true,
-            "HourlyRate": 15.00
-        },
-        {
-            "id":9,
-            "first_name":"Elfrieda",
-            "last_name":"Berthe",
-            "locationId": 3,
-            "manager": false,
-            "fullTime": false,
-            "HourlyRate": 9.00
-        },
-        {
-            "id":10,
-            "first_name":"Garner",
-            "last_name":"Illem",
-            "locationId": 2,
-            "manager": true,
-            "fullTime": true,
-            "HourlyRate": 15.00
-        }
-    ],
-    "customers": [
-        {
-            "id":1,
-            "first_name":"Beth",
-            "last_name":"Kivlehan"
-        },
-        {
-            "id":2,
-            "first_name":"Horatio",
-            "last_name":"Ferres"
-        },
-        {
-            "id":3,
-            "first_name":"Scotti",
-            "last_name":"Glavin"
-        },
-        {
-            "id":4,
-            "first_name":"Ranique",
-            "last_name":"Robjohns"
-        },
-        {
-            "id":5,
-            "first_name":"Zola",
-            "last_name":"Gettins"
-        },
-        {
-            "id":6,
-            "first_name":"Nehemiah",
-            "last_name":"Stott"
-        },
-        {
-            "id":7,
-            "first_name":"Emalia",
-            "last_name":"Allport"
-        },
-        {
-            "id":8,
-            "first_name":"Virgilio",
-            "last_name":"Harsum"
-        }
-    ]
+  "locations": [
+    {
+      "id": 1,
+      "name": "Bob's caramel",
+      "address": "2000 Candy lane",
+      "square footage": 864
+    },
+    {
+      "id": 2,
+      "name": "All Things Chocolate",
+      "address": "125 Sugar st",
+      "square footage": 1521
+    },
+    {
+      "id": 3,
+      "name": "Jaw's Breakers",
+      "address": "484 Eddy ln",
+      "square footage": 1081
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "type": "Hard Candy"
+    },
+    {
+      "id": 2,
+      "type": "Gum"
+    },
+    {
+      "id": 3,
+      "type": "Chocolate"
+    },
+    {
+      "id": 4,
+      "type": "Sodas"
+    },
+    {
+      "id": 5,
+      "type": "Gummies"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Bazooka",
+      "price": 0.89,
+      "productTypeId": 2
+    },
+    {
+      "id": 2,
+      "name": "Jolly Ranchers",
+      "price": 3.99,
+      "productTypeId": 1
+    },
+    {
+      "id": 3,
+      "name": "Coke",
+      "price": 1.89,
+      "productTypeId": 4
+    },
+    {
+      "id": 4,
+      "name": "Sour Patch Kids",
+      "price": 2.89,
+      "productTypeId": 5
+    },
+    {
+      "id": 5,
+      "name": "Hershey's",
+      "price": 2.99,
+      "productTypeId": 3
+    },
+    {
+      "id": 6,
+      "name": "Big Red",
+      "price": 1.89,
+      "productTypeId": 2
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "first_name": "Juliann",
+      "last_name": "Fortesquieu",
+      "locationId": 3,
+      "manager": true,
+      "fullTime": true,
+      "HourlyRate": 15
+    },
+    {
+      "id": 2,
+      "first_name": "Berna",
+      "last_name": "Fisbey",
+      "locationId": 3,
+      "manager": false,
+      "fullTime": false,
+      "HourlyRate": 9
+    },
+    {
+      "id": 3,
+      "first_name": "Deonne",
+      "last_name": "Oddey",
+      "locationId": 2,
+      "manager": false,
+      "fullTime": true,
+      "HourlyRate": 12.5
+    },
+    {
+      "id": 4,
+      "first_name": "Staford",
+      "last_name": "Clampe",
+      "locationId": 1,
+      "manager": false,
+      "fullTime": true,
+      "HourlyRate": 12.5
+    },
+    {
+      "id": 5,
+      "first_name": "Kerry",
+      "last_name": "Guyers",
+      "locationId": 3,
+      "manager": false,
+      "fullTime": false,
+      "HourlyRate": 9
+    },
+    {
+      "id": 6,
+      "first_name": "Lucretia",
+      "last_name": "MacCahee",
+      "locationId": 1,
+      "manager": false,
+      "fullTime": false,
+      "HourlyRate": 9
+    },
+    {
+      "id": 7,
+      "first_name": "Carlene",
+      "last_name": "Frean",
+      "locationId": 1,
+      "manager": false,
+      "fullTime": true,
+      "HourlyRate": 12.5
+    },
+    {
+      "id": 8,
+      "first_name": "Abbey",
+      "last_name": "Grene",
+      "locationId": 2,
+      "manager": true,
+      "fullTime": true,
+      "HourlyRate": 15
+    },
+    {
+      "id": 9,
+      "first_name": "Elfrieda",
+      "last_name": "Berthe",
+      "locationId": 3,
+      "manager": false,
+      "fullTime": false,
+      "HourlyRate": 9
+    },
+    {
+      "id": 10,
+      "first_name": "Garner",
+      "last_name": "Illem",
+      "locationId": 2,
+      "manager": true,
+      "fullTime": true,
+      "HourlyRate": 15
+    },
+    {
+      "first_name": "Sharon",
+      "last_name": "Blue",
+      "locationId": 3,
+      "manager": true,
+      "fullTime": true,
+      "hourlyRate": "9.00",
+      "id": 11
+    },
+    {
+      "first_name": "Carl",
+      "last_name": "Banks",
+      "manager": false,
+      "fullTime": false,
+      "hourlyRate": "9.00",
+      "locationId": 1,
+      "id": 12
+    },
+    {
+      "first_name": "Kevin",
+      "last_name": "Smith",
+      "manager": false,
+      "fullTime": true,
+      "hourlyRate": "12.50",
+      "locationId": "3",
+      "id": 13
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "first_name": "Beth",
+      "last_name": "Kivlehan"
+    },
+    {
+      "id": 2,
+      "first_name": "Horatio",
+      "last_name": "Ferres"
+    },
+    {
+      "id": 3,
+      "first_name": "Scotti",
+      "last_name": "Glavin"
+    },
+    {
+      "id": 4,
+      "first_name": "Ranique",
+      "last_name": "Robjohns"
+    },
+    {
+      "id": 5,
+      "first_name": "Zola",
+      "last_name": "Gettins"
+    },
+    {
+      "id": 6,
+      "first_name": "Nehemiah",
+      "last_name": "Stott"
+    },
+    {
+      "id": 7,
+      "first_name": "Emalia",
+      "last_name": "Allport"
+    },
+    {
+      "id": 8,
+      "first_name": "Virgilio",
+      "last_name": "Harsum"
+    }
+  ]
 }
