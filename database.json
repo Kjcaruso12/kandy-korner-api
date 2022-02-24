@@ -135,15 +135,6 @@
       "HourlyRate": 9
     },
     {
-      "id": 7,
-      "first_name": "Carlene",
-      "last_name": "Frean",
-      "locationId": 1,
-      "manager": false,
-      "fullTime": true,
-      "HourlyRate": 12.5
-    },
-    {
       "id": 8,
       "first_name": "Abbey",
       "last_name": "Grene",
@@ -261,6 +252,68 @@
       "address": "780 sesame st",
       "email": "Propane@gmail.com",
       "id": 9
+    }
+  ],
+  "purchases": [
+    {
+      "productId": 4,
+      "customerId": 2,
+      "timestamp": "02/24/2022, 01:48:57 PM",
+      "id": 1
+    },
+    {
+      "productId": 2,
+      "customerId": 9,
+      "timestamp": "02/24/2022, 01:52:25 PM",
+      "id": 2
+    },
+    {
+      "productId": 1,
+      "customerId": 9,
+      "timestamp": "02/24/2022, 01:52:25 PM",
+      "id": 3
+    },
+    {
+      "productId": 4,
+      "customerId": 9,
+      "timestamp": "02/24/2022, 01:52:25 PM",
+      "id": 4
+    },
+    {
+      "productId": 6,
+      "customerId": 9,
+      "timestamp": "02/24/2022, 01:52:25 PM",
+      "id": 5
+    },
+    {
+      "productId": 2,
+      "customerId": 9,
+      "timestamp": "02/24/2022, 02:43:36 PM",
+      "id": 6
+    },
+    {
+      "productId": 5,
+      "customerId": 9,
+      "timestamp": "02/24/2022, 02:43:36 PM",
+      "id": 7
+    },
+    {
+      "productId": 6,
+      "customerId": 9,
+      "timestamp": "02/24/2022, 02:43:36 PM",
+      "id": 8
+    },
+    {
+      "productId": 1,
+      "customerId": 9,
+      "timestamp": "02/24/2022, 02:43:36 PM",
+      "id": 9
+    },
+    {
+      "productId": 5,
+      "customerId": 9,
+      "timestamp": "02/24/2022, 03:30:32 PM",
+      "id": 10
     }
   ]
 }
