@@ -314,6 +314,12 @@
       "customerId": 9,
       "timestamp": "02/24/2022, 03:30:32 PM",
       "id": 10
+    },
+    {
+      "productId": 3,
+      "customerId": 9,
+      "timestamp": "02/25/2022, 01:47:36 PM",
+      "id": 11
     }
   ]
 }
